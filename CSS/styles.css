@@ -1,0 +1,33 @@
+.titulosHistoria {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.contenedorHistoria1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 25px ;
+    border: 25px;
+}
+
+.textoHistoria {
+    padding: 0px 25px;
+}
+
+.img1 {
+    margin-top: 35px;
+}
+.img2{
+    margin-top: 27px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2D8C18;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
