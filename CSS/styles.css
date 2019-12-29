@@ -1,4 +1,4 @@
-.titulosHistoria {
+.titulosPrincipales {
     display: flex;
     flex-direction: column;
     align-items:  center;
@@ -10,22 +10,14 @@ h1{
 
 }
 
-
-.contenedorHistoria1 {
+.contenedor1 {
     display: flex;
     flex-direction: row;
     padding: 0px 25px ;
     border: 25px;
 }
 
-.contenedorHistoria2 {
-    display: flex;
-    flex-direction: row;
-    padding: 0px 25px ;
-    border: 25px;
-}
-
-.contenedorHistoria3 {
+.contenedorMapa {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,15 +31,15 @@ h1{
 }
 
 .imgH1 {
-    margin-top: 15px;
+    margin-top: 25px;
     width: 575PX;
-    height: 400PX;
+    height: 370PX;
 }
 
 .imgH2{
     margin-top: 27px;
-    width: 550px;
-    height: 350px
+    width: 600px;
+    height: 338px
 }
 
 .imgH3 {
@@ -67,7 +59,18 @@ p {
     line-height: 20px;
 }
 
-.textomapa {
+.textocentrado {
     font-size: 20px;
     text-align: center;
+}
+
+.imgEdificios {
+    width: 550px;
+    height: 310px;
+    padding: 20px 0px 0px 25px;
+}
+
+.nombreEdificios{
+    font-size: 20px;
+
 }
