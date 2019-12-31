@@ -1,11 +1,11 @@
-.titulosPrincipales {
+.titulosHistoriaEdificios {
     display: flex;
     flex-direction: column;
     align-items:  center;
     color: white;
 }
 
-h1{
+.tituloChichen{
     font-size: 50px;
     text-shadow: 0.05em -0.02em #333;
 
@@ -63,8 +63,6 @@ h1{
     justify-content: space-evenly;
     width: 1300px;
     margin: 0px 10px ;
-    
-
 }
 
 .contenedorMapa {
@@ -84,12 +82,14 @@ h1{
     margin-top: 40px;
     width: 653PX;
     height: 400PX;
+    margin-right: 25px;
 }
 
 .imgH2{
     margin-top: 25px;
     width: 600px;
     height: 380px;
+    margin-left: 25px;
 }
 
 .imgH3 {
@@ -104,15 +104,17 @@ body {
     border: 15px solid white;
 }
 
-p {
-    font-size: 15px;
+.textoHistoria-Edificios {
+    font-size: bold 15px;
     font-weight: bold;
     line-height: 20px;
 }
 
 .textocentrado {
-    font-size: 20px;
+    font-size:20px;
     text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 .imgEdificios {
@@ -126,16 +128,11 @@ p {
     font-size: 20px;
 }
 
+.enlacesEstilos {
+    color: white;
+}
 
-a:hover{
+.enlacesEstilos:hover{
     color: black;
     font-weight: bold;
-}
-
-p{
-color: rgb(36, 26, 26);
-}
-
-a {
-    color: white;
 }
