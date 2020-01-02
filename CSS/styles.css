@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items:  center;
-    color: white;
+    color: whitesmoke;
 }
 
 .tituloChichen{
     font-size: 50px;
-    text-shadow: 0.05em -0.02em #333;
+    text-shadow: 0.05em -0.02em black;
 
 }
 
@@ -16,6 +16,7 @@
     flex-direction: row;
     padding: 0px 25px ;
     border: 25px;
+    margin-bottom: 15px;
 }
 
 .contenedorListaEdificios{
@@ -27,6 +28,7 @@
 .contenedorListaEdificios ul {
     border: solid 2px;
     margin: 25px 150px 100px;
+    padding-bottom: 20px;
     height: 236px;
     width: 530px;
     display: flex;
@@ -49,20 +51,16 @@
     height: 722px;
 }
 
-.contenedorTextoEdificios2 {
-    display: flex;
-    flex-direction: column;
-    width: 590px;
-    height: 650px;
-}
 
 .contenedorEdificios{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
-    width: 1300px;
+    box-sizing: border-box;
+    width: 1250px;
     margin: 0px 10px ;
+
 }
 
 .contenedorMapa {
@@ -79,16 +77,16 @@
 }
 
 .imgH1 {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 653PX;
-    height: 400PX;
+    height: 450PX;
     margin-right: 25px;
 }
 
 .imgH2{
-    margin-top: 25px;
+    margin-top: 15px;
     width: 600px;
-    height: 380px;
+    height: 400px;
     margin-left: 25px;
 }
 
@@ -99,8 +97,9 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(rgb(96, 112, 87), rgb(0, 104, 0) , rgba(96,112, 87));
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(200, 191, 191);
+    font-size: 16px;
     border: 15px solid white;
 }
 
@@ -129,10 +128,17 @@ body {
 }
 
 .enlacesEstilos {
-    color: white;
+    color: green;
 }
 
 .enlacesEstilos:hover{
     color: black;
     font-weight: bold;
+}
+
+.botonVolverAlista {
+    position: sticky;
+    bottom: 15px;
+    right: 30px;
+    top: 600px;
 }
