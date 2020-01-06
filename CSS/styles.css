@@ -1,5 +1,4 @@
 
-  
   body {
     font-family: "montserrat";
   }
@@ -88,3 +87,165 @@
     display: flex;
     justify-content: center;
   }
+
+.titulosHistoriaEdificios {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    color: green;
+}
+
+.tituloChichen{
+    font-size: 50px;
+    text-shadow: 0.05em -0.02em black;
+
+}
+
+.contenedorHistoria {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 25px ;
+    border: 25px;
+    margin-bottom: 15px;
+}
+
+.contenedorListaEdificios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorListaEdificios ul {
+    border: solid 2px;
+    margin: 25px 150px 100px;
+    padding-bottom: 20px;
+    height: 236px;
+    width: 530px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.contenedorListaEdificios ul li {
+    padding: 5px 0px;
+    width: 250px;
+    margin-left: 15px;
+}
+
+.contenedorTextoEdificios {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 650px;
+    box-sizing: border-box;
+}
+
+
+.contenedorEdificios{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.contenedorMapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px ;
+    border: 25px;
+    margin-top: 25px;
+}
+
+.textoHistoria {
+    padding: 0px 25px;
+}
+
+.imgH1 {
+    margin-top: 20px;
+    width: 653PX;
+    height: 450PX;
+    margin-right: 25px;
+}
+
+.imgH2{
+    margin-top: 15px;
+    width: 600px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.imgH3 {
+    width: 750px;
+    height: 550px;
+    padding-bottom: 10px;
+}
+
+.fondoHistoriaEdificios {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(200, 191, 191);
+    font-size: 16px;
+    border: 15px solid white;
+    margin: 0px;
+}
+
+.textoHistoria-Edificios {
+    font-size: bold 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.textocentrado {
+    font-size:20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.imgEdificios {
+    width: 550px;
+    height: 310px;
+    margin-top: 15px;
+    padding-right: 25px;
+}
+
+.nombreEdificios{
+    font-size: 20px;
+}
+
+.enlacesEstilos {
+    color: rgb(13, 82, 13);
+}
+
+.enlacesEstilos:hover{
+    color: black;
+    font-weight: bold;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 550px;
+    padding-left: 96.5%;
+}
+
+div nav {
+    text-align: right;
+    padding: 20px;
+    position: fixed;
+    margin-left: 65%;
+}
+
+nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: grey;
+    border: solid black;
+    padding: 5px;
+}
+
