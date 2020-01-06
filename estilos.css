@@ -1,13 +1,6 @@
-{
-    margin:0;
-    padding:0;
-
-}
-
-
 
 body {
-     background: #f2f2f2;
+     background: rgb(200, 191, 191);
 }
 
 .main {
@@ -60,7 +53,7 @@ background: black;
     float:right;
 }
  h2 {
-     background: cyan;
+     color: green;
      position: relative;
      left: 510px;
      width:272Px;
@@ -71,4 +64,20 @@ background: black;
     background-color: rgb(200, 191, 191);
     font-size: 16px;
     border: 15px solid white;
+}
+
+div nav {
+    text-align: right;
+    padding: 20px;
+    position: static;
+    margin-left: 65%;
+}
+
+nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: grey;
+    border: solid black;
+    padding: 5px;
 }
